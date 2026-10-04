@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>4-Song Playlist Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="player.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h2>My Favorite Songs</h2>
+
+      <section class="inputGroup">
+        <input type="text" id="songTitle" placeholder="Song Title" />
+        <input type="text" id="songArtist" placeholder="Artist" />
+        <button type="button" id="addBtn">Add Song</button>
+      </section>
+
+      <section id="playlistContainer">
+        <article class="songCard">
+          <span>The Rain Formerly Known as Purple - Chris Chistodoulou</span>
+          <button class="deleteBtn">Delete</button>
+        </article>
+
+        <article class="songCard">
+          <span>Tierra Seca - Corimbo</span>
+          <button class="deleteBtn">Delete</button>
+        </article>
+
+        <article class="songCard">
+          <span>Forest for the trees - Anatole</span>
+          <button class="deleteBtn">Delete</button>
+        </article>
+
+        <article class="songCard">
+          <span>Me Against the World - 2Pac</span>
+          <button class="deleteBtn">Delete</button>
+        </article>
+
+        <article class="songCard">
+          <span>Of Blue - JID & Mereba</span>
+          <button class="deleteBtn">Delete</button>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
